@@ -2,17 +2,13 @@
 
 public class Person
 {
-    public Person()
+    static public string GetName()
     {
-        Student s1 = new Student();
-        Console.WriteLine(s1.GetName());
+        return "許光漢";
     }
 
-    public class Student
+    static public string GetName(string name)
     {
-        public string GetName()
-        {
-            return "Student";
-        }
+        return name + "許光漢";
     }
 }

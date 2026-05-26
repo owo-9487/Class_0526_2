@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person();
-
+            Console.WriteLine(Person.GetName());
+            Console.WriteLine(Person.GetName("德明"));
         }
     }
 }
